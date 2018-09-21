@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>ARISTA</title>
+	<meta name="description" 
+      content="ARISTA">
+	<meta name="keywords" 
+      content="ARISTA">
+    <link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="sidetogglemenu.css" />
+    <link rel="stylesheet" type="text/css" media="screen and (min-device-width: 80px) and (max-device-width: 320px)" href="mobile-landscape.css" />
+	<link rel="stylesheet" type="text/css" media="screen and (min-device-width: 321px) and (max-device-width: 650px)" href="mobile-landscape.css" />
+    <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>  
+    <link rel="shortcut icon" type="image/png" href="images/asdf.png"/>
+
+	
+</head>
+
+<?php
+
+$email=htmlspecialchars($_GET["emailsent"]);
+if ($email===true) {
+ echo "Email sent.";   
+}
+?>
+    
+    
+<body>   
+    <!--<div id="social">
+        <ul>
+            <li>
+                <a href="#home">
+                    <img src="images/KNCTRNL_EYES.png" alt="KNCTRNL">
+                </a>
+            </li>
+            <br>
+        </ul>
+    </div>-->
+     
+        <section class="content" id="home">
+                <div id="home-container">
+                    <img id="arista-logo" src="images/ARISTA-logo-shadow.png">
+                    <img id="down-arrow" src="images/down-arrow-shadow.png">
+               </div>
+               <div id="down-arrow">
+                    
+               </div>
+            <div class="overlay">
+               <video autoplay muted loop id="myVideo">
+      				<source src="images/splash1.mp4" type="video/mp4">
+    			</video>
+    			<img id="myGif" src="images/asdf.gif">
+            </div>      
+        </section>
+    
+        <section class="content" id="artists">
+            <div id="artists-container">                 
+                <h1>ROSTER</h1>
+                <ul>
+                    <li>
+                    	<a class="artist-logo" href="#artist-upsahl">
+                    		<img class="front-image" src="images/upsahl-circle.png" alt="LooKas">
+                            <img class="back-image" src="images/black-circle.png" alt="UPSAHL">
+                    	</a>
+                        <a class="artist-name" href="#artist-upsahl">                           
+                        </a>
+                    </li>
+                    <div id="artist-upsahl" class="artist-box">
+                    	<div class="pressshot">
+                    		<img src="images/press/upsahl.jpg">
+                    	</div>
+	                    <div class="artist-box-content">
+	                    	<div class="artist-box-logo">
+	                    		<img src="images/upsahl-logo.png">
+	                    	</div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis imperdiet tellus. Duis dapibus pulvinar odio ut faucibus. Morbi gravida eleifend sem, ac porta orci mattis mattis. Vivamus varius sodales ligula sed scelerisque. In in leo dapibus, condimentum velit vel, viverra mi. Sed lobortis, elit id vehicula gravida, urna quam aliquam ligula, sed tempor arcu nibh pulvinar lacus. Proin elementum lorem hendrerit, placerat nibh in, faucibus ex. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+
+                            Donec mattis eget elit sed convallis. Vivamus pulvinar velit vel quam molestie, nec porta lorem vulputate. Sed facilisis non nisi in interdum. Mauris sollicitudin, diam at viverra laoreet, tortor tellus mollis metus, vel molestie nibh neque id neque. Etiam ultricies congue commodo. Sed molestie elementum lectus, sagittis placerat massa gravida non. Donec risus sem, pulvinar nec sapien sed, tincidunt tempus quam. Morbi enim dolor, rhoncus in diam non, ultricies ultricies urna. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+
+                            Nam quis risus lobortis, elementum augue vel, mattis nisl. Sed rhoncus a urna eget interdum. Vestibulum et lorem eu dolor iaculis ultricies vitae vel neque. Aliquam sit amet neque id est condimentum condimentum. Sed bibendum pretium felis quis ullamcorper. Praesent molestie, ante ac elementum volutpat, metus neque volutpat libero, eu venenatis quam libero at eros. Sed ac augue et urna cursus iaculis. Fusce volutpat faucibus metus sed tempus. Sed ut ante ipsum. Aliquam augue mi, congue et eros vel, rhoncus dapibus leo. Vivamus venenatis dapibus malesuada. Sed augue mauris, congue eu pretium vitae, luctus non purus.
+
+                            Mauris convallis eros sit amet pulvinar bibendum. Cras viverra libero sit amet ullamcorper gravida. Duis quis enim tempor libero lobortis lobortis. Donec sollicitudin interdum sapien vel tincidunt. Vivamus id finibus nisi. Praesent non nulla consectetur purus sodales aliquam id sit amet sapien. Sed rhoncus imperdiet nisi, dignissim tempus enim varius et. Ut ut dapibus neque.</p>
+                        <div class="icon-group">
+                            <a href="https://www.facebook.com/" target="_blank">
+                                <img src="images/social/facebook-blue.png">
+                            </a>
+                            <a href="https://soundcloud.com/" target="_blank">
+                                <img src="images/social/soundcloud-blue.png">
+                            </a>
+                            <a href="https://twitter.com/" target="_blank">
+                                <img src="images/social/twitter-blue.png">
+                            </a>
+                            <a href="https://youtube.com/" target="_blank">
+                                <img src="images/social/youtube-blue.png">
+                            </a>
+                            <a href="https://instagram.com/" target="_blank">
+                                <img src="images/social/instagram-blue.png">
+                            </a>
+                        </div>
+                            <br><br><br>
+                        </div>
+                	</div>
+            	<li>
+            		<a class="artist-logo" href="#artist-puth">
+            			<img class= "front-image" src="images/puth-circle.png" alt="Stephen Puth">
+                        <img class="back-image" src="images/black-circle.png" alt="Stephen Puth">
+            		</a>
+            	</li>
+                <div id="artist-puth" class="artist-box">
+                    <div class="pressshot">
+                    	<img src="images/press/puth.jpg">
+                    </div>
+                    <div class="artist-box-content">
+                        <div class="artist-box-logo">
+                        	<img src="images/puth-logo.png">
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis imperdiet tellus. Duis dapibus pulvinar odio ut faucibus. Morbi gravida eleifend sem, ac porta orci mattis mattis. Vivamus varius sodales ligula sed scelerisque. In in leo dapibus, condimentum velit vel, viverra mi. Sed lobortis, elit id vehicula gravida, urna quam aliquam ligula, sed tempor arcu nibh pulvinar lacus. Proin elementum lorem hendrerit, placerat nibh in, faucibus ex. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+
+                        <div class="icon-group">
+                            <a href="https://www.facebook.com/" target="_blank">
+                                <img src="images/social/facebook-blue.png">
+                            </a>
+                            <a href="https://soundcloud.com/" target="_blank">
+                                <img src="images/social/soundcloud-blue.png">
+                            </a>
+                            <a href="https://twitter.com/" target="_blank">
+                                <img src="images/social/twitter-blue.png">
+                            </a>
+                            <a href="https://youtube.com/" target="_blank">
+                                <img src="images/social/youtube-blue.png">
+                            </a>
+                            <a href="https://instagram.com/" target="_blank">
+                                <img src="images/social/instagram-blue.png">
+                            </a>
+                        </div>
+                        <br>
+                        <br>
+                    </div>
+                </div>
+				<li>
+					<a class="artist-logo" href="#artist-quinn">
+						<img class="front-image" src="images/quinn-circle.png" alt="SMLE">
+                        <img class="back-image" src="images/black-circle.png" alt="Stephen Puth">
+					</a>    
+                </li>
+                <div id="artist-quinn" class="artist-box">
+                    <div class="pressshot">
+                        <img src="images/press/quinn.png">
+                    </div>
+                    <div class="artist-box-content">
+                        <div class="artist-box-logo">
+                            <img src="images/quinn-logo.png">
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis imperdiet tellus. Duis dapibus pulvinar odio ut faucibus. Morbi gravida eleifend sem, ac porta orci mattis mattis. Vivamus varius sodales ligula sed scelerisque. In in leo dapibus, condimentum velit vel, viverra mi. Sed lobortis, elit id vehicula gravida, urna quam aliquam ligula, sed tempor arcu nibh pulvinar lacus. Proin elementum lorem hendrerit, placerat nibh in, faucibus ex. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+
+                        <div class="icon-group">
+                            <a href="https://www.facebook.com/" target="_blank">
+                                <img src="images/social/facebook-blue.png">
+                            </a>
+                            <a href="https://soundcloud.com/" target="_blank">
+                                <img src="images/social/soundcloud-blue.png">
+                            </a>
+                            <a href="https://twitter.com/" target="_blank">
+                                <img src="images/social/twitter-blue.png">
+                            </a>
+                            <a href="https://youtube.com/" target="_blank">
+                                <img src="images/social/youtube-blue.png">
+                            </a>
+                            <a href="https://instagram.com/" target="_blank">
+                                <img src="images/social/instagram-blue.png">
+                            </a>
+                        </div>
+                        </li>
+                        <br>
+                        <br>
+                    </div>
+                </div>
+
+
+</body>
+    
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="/wp-content/themes/etoolkit/js/libs/jquery-1.7.2.min.js"><\/script>')</script>
+
+<script type="text/javascript" src="script.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+<script type="text/javascript" src="sidetogglemenu.js"></script>
+
+<script>
+jQuery(function(){ // on DOM load
+	menu1 = new sidetogglemenu({  // initialize first menu example
+		id: 'togglemenu1',
+		marginoffset: 10
+	})
+
+})
+</script>
+<!--<SCRIPT>
+function passWord() {
+var testV = 1;
+var pass1 = prompt('Please Enter Your Password',' ');
+while (testV < 3) {
+if (!pass1) 
+history.go(-1);
+if (pass1.toLowerCase() == "arista") {
+alert('welcome');
+window.open('www.wikihow.com');
+break;
+} 
+testV+=1;
+var pass1 = 
+prompt('Access Denied - Password Incorrect, Please Try Again.','Password');
+}
+if (pass1.toLowerCase()!="password" & testV ==3) 
+history.go(-1);
+return " ";
+} 
+</SCRIPT>
+<CENTER>
+<FORM>
+<input type="button" value="Enter Protected Area" onClick="passWord()">
+</FORM>
+</CENTER>
+-->
+</html>

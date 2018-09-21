@@ -1,0 +1,130 @@
+body{ /* CSS for BODY transition when menu is set to push BODY content. */ 
+	-moz-transition: left 100ms ease-in-out, right 100ms ease-in-out;
+	-webkit-transition: left 100ms ease-in-out, right 100ms ease-in-out;
+	transition: left 100ms ease-in-out, right 100ms ease-in-out;
+}
+
+button {
+    position: fixed;
+    
+}
+
+
+.sideviewtoggle {
+    z-index: 1000;
+    width: 4em;
+    height: 4em;
+	margin-top: -20px;
+    background-color: rgba(0,0,0,.9);
+    border: 2px solid white;
+    margin-left: 5px;
+    color: white;
+    outline: none;
+    background-image: url("images/equal-menu.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: .4;
+}
+
+.sideviewtoggle:hover {
+    opacity: 1;
+    outline: none;
+    /*background-color: rgb(13,0,63);
+	color: rgb(255,255,255);*/
+        
+}
+
+.sideviewtoggle:focus {
+    outline: none;
+}
+
+
+.sidetogglemenu{ /* shared class for side toggle menus */
+	padding-top: 5em;
+	background-color: rgba(0,0,0,.5);
+	min-width: 120px; /* default menu width */
+	min-height: 200px;
+	position: fixed;
+    z-index: 1000;
+	top: -100%;
+	clear: both;
+	display: block;
+	visibility: 'hidden';
+	-moz-transition: all 100ms ease-in-out; /* change 100ms to slide in animation time */
+	-webkit-transition: all 100ms ease-in-out;
+	transition: all 100ms ease-in-out;
+}
+
+
+.sidetogglemenu ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+    
+}
+
+.sidetogglemenu a{
+	font: 12px Verdana;
+	padding: 15px 0px 15px 20px;
+    text-align: left;
+	display: block;
+	color: rgb(255,255,255);
+    min-width: 100px;
+	text-decoration: none;
+	/*border-bottom: 1px solid #C0C0C0;*/
+}
+
+
+.sidetogglemenu a:hover{
+	background-color: rgba(255,255,255,.4);
+	color: rgb(255,255,255);
+}
+
+
+/* #######  Responsive Menu related CSS  ####### 
+div#smallscreentoggler{ /* CSS for small screen menus toggler, shown when device width is below specified 
+	
+	color: white;
+	position: relative;
+	float: right;
+	overflow: hidden;
+	background: rgba(0,0,0,0);
+	font: normal 0px Arial;
+	margin-bottom: 0.5em;
+	text-align: center;
+	cursor: pointer;
+	display: none;
+	-moz-transition: all 300ms ease-in-out;
+	-webkit-transition: all 300ms ease-in-out;
+	transition: all 200ms ease-in-out;
+}
+
+div#smallscreentoggler:hover{
+	background: #eee;
+	color: black;
+	-moz-transition: all 300ms ease-in-out;
+	-webkit-transition: all 300ms ease-in-out;
+	transition: all 300ms ease-in-out;*/
+}
+/*
+
+@media screen and (max-width: 480px){ /* CSS when device width is 480px or less 
+    .sidetogglemenu{ /* shared class for side toggle menus 
+        padding-top: 5em;
+        background-color: rgba(0,0,0,.5);
+        min-width: 200px; 
+        min-height: 400px;
+        position: fixed;
+        z-index: 1000;
+        top: -100%;
+        clear: both;
+        display: block;
+        visibility: 'hidden';
+        -moz-transition: all 100ms ease-in-out;  
+        -webkit-transition: all 100ms ease-in-out;
+        transition: all 100ms ease-in-out;
+    }
+  
+    */
+}

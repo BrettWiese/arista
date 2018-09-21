@@ -1,0 +1,234 @@
+@media screen 
+and (min-device-width : 80px) 
+and (max-device-width : 320px) {
+    body {
+        width: 100%;
+        min-height: 100%;
+		top: 0px !important;
+		padding-top: 0px !important;
+		overflow: hidden;
+        background-image: none;
+		position: absolute;
+        
+    }
+    
+    .sideviewtoggle {
+        width: 7em !important;
+        height: 7em !important;
+		margin-top: 0px;
+    }
+    
+    .sidetogglemenu{ /* shared class for side toggle menus */
+		margin-top:10px;
+        padding-top: 6em;
+        background-color: rgba(0,0,0,.7);
+        min-width: 300px; /* default menu width */
+        min-height: 600px;
+        font-size: 2em;
+        position: fixed;
+        z-index: 1000;
+        top: -100%;
+        clear: both;
+        display: block;
+        visibility: hidden;
+        -moz-transition: all 100ms ease-in-out; /* change 100ms to slide in animation time */
+        -webkit-transition: all 100ms ease-in-out;
+        transition: all 100ms ease-in-out;
+    }
+    
+
+    .sidetogglemenu a, a:hover {
+	   font-size: 2em !important;
+    }
+    
+		
+    #social {
+        width: 8em;
+        margin-right: 2em;
+		margin-top: -10px;
+    }
+    
+    #social ul li {
+        height: 3em; 
+        margin-right: 6em;
+    }
+    
+    .social-icon {
+	   margin-left: 1.5em;
+    }
+    
+    section {
+        position: relative;
+        width: 100%;
+        min-height: 100%;
+		margin-top: 0px;
+    }
+    
+    #home {
+		position: relative;
+    }
+
+    #myVideo {
+    position:relative;
+    display: none;
+    margin: auto;
+    text-align: center;
+    min-width: 100%; 
+    min-height: 100%;
+    }
+
+    #myGif {
+    position: relative;
+    display: block;
+    margin: auto;
+    text-align: center;
+    min-width: 100%; 
+    min-height: 100%;
+    }
+
+    .content {
+        min-height:0%;
+    }
+
+    #home-container {
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        top: 200px;
+        width: 100%;
+        text-align: center;
+}
+    
+    #artists ul li {
+        display:inline-block !important;
+        width: 60% !important;
+		max-width: 400px;
+        margin-top: 30px;
+        margin-left: 17%; 
+        margin-right: 23%;
+        margin-bottom: 30px;  
+    }
+    
+    .blur-logo img {
+        -webkit-filter: blur(0px);
+        -moz-filter: blur(0px); 
+        -o-filter: blur(0px); 
+        -ms-filter: blur(0px); 
+        filter: url();
+    }
+    
+    .artist-box-content p {
+        font-size: 2em;  
+    }
+    
+    .artist-box-content a:link, a:hover, a:active, a:visited {
+        font-size:  2em;  
+    }
+    
+    #artists h1 {
+        font-size: 6em;   
+    }
+    
+    #booking h1 {
+        font-size: 6em;
+		text-align: left;
+    }
+    
+    #contact h3 {
+        font-size: 5em;   
+    }
+    
+	#booking {
+		min-height: 100%;
+		overflow: visible;
+	}
+	
+    #booking-container {
+	width: 100%;
+	height: 50px;
+	margin-left: auto;
+	margin-right: auto;
+        
+    }
+    
+    .booking-form {
+        width: 95%;
+        font-size: 1.5em;   
+    }
+    
+    .booking-form input[type="text"], .dark-matter input[type="email"], .booking-form textarea, .booking-form select{
+        height: 45px;
+        font-size: 1.5em;
+    }
+    
+    .booking-form select {
+        height: 60px;   
+    }
+    
+    .booking-form textarea{
+        height: 300px;
+    }
+    
+    .booking-form .button {
+         font-size: 1.5em;  
+    }
+}
+
+
+
+
+/*
+
+@media only screen and (min-device-width: 500px) and (max-device-width: 640px) {
+	.sideviewtoggle {
+        width: 4em !important;
+        height: 4em !important;
+    }
+	
+	.sideviewtoggle {
+        width: 7em !important;
+        height: 7em !important;
+    }
+    
+    .sidetogglemenu
+        padding-top: 5em;
+        background-color: rgba(0,0,0,.5);
+        min-width: 50%; 
+        height: 100%;
+        font-size: 1.5em !important;
+        position: fixed;
+        z-index: 1000;
+        top: -100%;
+        clear: both;
+        display: block;
+        visibility: hidden;
+        -moz-transition: all 100ms ease-in-out; /* change 100ms to slide in animation time 
+        -webkit-transition: all 100ms ease-in-out;
+        transition: all 100ms ease-in-out;
+    }
+    
+	div#smallscreentoggler{
+		font-size: 1.5em !important;	
+	}
+	
+    .sidetogglemenu a, a:hover {
+	   font-size: 1.5em !important;    
+    }
+	
+	#social ul li {
+        max-height: 1em; 
+	}	
+	
+	#home-container {
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        top: 40%;
+        width: 100%;
+        text-align: center;
+	}
+		
+}	
+	
+	*/
+	

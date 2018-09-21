@@ -1,0 +1,77 @@
+@media only screen and (min-device-width: 321px) and (max-device-width: 650px) {
+	body {
+        width: 100%;
+        min-height: 110%;
+		top: 0px;
+		padding-top: 0px;
+        position: absolute;
+    }
+	
+	.sideviewtoggle {
+        width: 5em !important;
+        height: 5em !important;
+		margin-top: 0px;
+    }
+	
+	.sidetogglemenu{ /* shared class for side toggle menus */
+        padding-top: 5em;
+        background-color: rgba(0,0,0,.7);
+        min-width: 300px; /* default menu width */
+        min-height: 600px;
+        font-size: 1.5em;
+	}
+	
+	#social {
+		margin-top: -10px;	
+	}
+	#social ul li {
+        max-height: 2em; 
+	}
+
+    #myVideo {
+    position:relative;
+    display: none;
+    margin: auto;
+    text-align: center;
+    min-width: 100%; 
+    min-height: 100%;
+    }
+    
+    #myGif {
+    position: relative;
+    display: block;
+    margin: auto;
+    text-align: center;
+    min-width: 100%; 
+    min-height: 100%;
+    }	}
+
+	.content {
+		min-height:0%;
+	}
+	
+    #home {
+		margin-top: -30px;	
+    }
+	
+	#home-container {
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        top: 10px;
+        width: 100%;
+        text-align: center;
+	}
+	
+	#artists ul li {
+		display:inline-block;
+		width: 15%;
+		min-width: 180px;
+		margin-top: 30px;
+		margin-left: 2%; 
+		margin-right: 8%;
+		margin-bottom: 2%;  
+	}   
+		
+}	
+	
