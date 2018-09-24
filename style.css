@@ -183,10 +183,10 @@ section {
     bottom: 100px;
     left: 50%;
     width: 5%;
-    transform: translate(-50%, -50%);
-    animation: MoveUpDown 1s ease-in-out infinite;
+    /*transform: translate(-50%, -50%);
+    animation: MoveUpDown 1s ease-in-out infinite;*/
 }
-
+/*
 @keyframes MoveUpDown {
   0%, 100% {
     bottom: 0px;
@@ -194,7 +194,7 @@ section {
   50% {
     bottom: 30px;
   }
-}
+}*/
 
 #artists {
 	position: relative;
@@ -273,13 +273,13 @@ section {
     left:0;
     width:100%; 
     max-height: 100%;
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #222);
   
 }
 
 .back-image {
     position: absolute !important;
-    filter:invert(100%);
-    -webkit-filter: invert(100%);
 }
 .artist-logo .front-image {
   z-index: 9999;
@@ -338,7 +338,6 @@ section {
     overflow: hidden;
     z-index:1100;
 }
-
 
 .pressshot{ 
 	position: relative;
