@@ -1,19 +1,19 @@
 $(document).ready(function(){
 $("nav ul li a").click(function() {
     var navId= $(this).attr("href");
-    $("body, html").animate({scrollTop: $(navId).offset().top},500);
+    $("body, html").animate({scrollTop: $(navId).offset().top},0);
     return false;
 });
     
 $("#social ul li a").click(function(e) {
     var navId= $(this).attr("href");
-    $("body, html").animate({scrollTop: $(navId).offset().top},500);
+    $("body, html").animate({scrollTop: $(navId).offset().top},0);
     return false;
 });
     
 $("#artists #artists-container ul li .artist-logo").click(function(e) {
     var navId= $(this);
-    $("body, html").animate({scrollTop: $(navId).offset().top - 200},500);
+    $("body, html").animate({scrollTop: $(navId).offset().top + 0},500);
     return false;
 });    
     
